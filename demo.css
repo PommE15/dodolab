@@ -8,6 +8,7 @@ body {
 	width: 960px;
 	margin: auto;
 	line-height: 1.8;
+	font-family: Helvetica, Verdana;
 }
 
 h1{
@@ -36,7 +37,7 @@ p.figure {
 a {
 	color: CornflowerBlue;
 	font-size: 12px;
-	font-family: Avant Garde, Century Gothic;
+	font-family: Avant Garde, Century Gothic, "Microsoft JhengHei", "微軟正黑體";
 	text-decoration: none;
 }
 a:hover {
@@ -61,6 +62,7 @@ iframe {
 	height: 200px;
 }
 
+/*Page Elemets*/
 #container {
 	width: 100%;
 	overflow: hidden;
@@ -71,6 +73,13 @@ iframe {
 }
 #demo {
 	margin-top: 356px;
+}
+
+#footer{
+	color: grey;
+	font-size: 14px;
+	text-align: center;
+	height: 60px;
 }
 
 /*Other classes*/
