@@ -11,5 +11,5 @@ YUI().use('node', 'gallery-masonry', function(Y){
 			isAnimated: true
 		});*/
 	var myIframe = Y.Node.create('<iframe class="center" src="http://www.youtube.com/embed/ovkax0eajMM?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>');	
-	Y.one("#video").append(myIframe);
+	Y.one("#video").replace(myIframe);
 }); 
