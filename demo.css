@@ -12,7 +12,7 @@ body {
 }
 
 h1{
-	padding: 30px 10px;
+	padding: 30px 18px;
 }
 h2{
 	width: 105px;
@@ -31,7 +31,9 @@ p, span {
 }
 p.figure {
 	color: grey;
-	font-size: 12px;
+	font-size: 11px;
+	font-family: Avant Garde, Century Gothic;
+	line-height: 1.5;
 }
 
 a {
@@ -44,17 +46,39 @@ a:hover {
 	color: DodgerBlue;
 }
 
+a.img, a.img:hover {
+	color: white;
+}
+
 img {
 	width: 100%;
 	border-radius: 2px;
 	margin-bottom: 10px;
+	vertical-align: middle;
+}
+img.medium {
+	width: 66%;
+
 }
 img.small {
-	width: 66%;
-	margin-bottom: 0;
+	width: 136px;
+	margin-bottom: 3px;
 }
-img.mini {
+img.icon1 {
+	width: 32px;
+}
+img.icon2{
 	width: 64px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+}
+img.icon2:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
 }
 
 iframe {
@@ -72,7 +96,13 @@ iframe {
 	margin-left: 75px;
 }
 #demo {
-	margin-top: 356px;
+	margin-top: 48px;
+}
+
+#misc {
+	background-color: #EEEEEE;
+	border-radius: 5px;
+	padding: 0 15px;
 }
 
 #footer{
@@ -102,6 +132,10 @@ iframe {
 .left {
 	float: left;
 }
+.right {
+	float: right;
+	margin-right: 5px;
+}
 
 .title {
 	color: orangered;
@@ -117,7 +151,10 @@ iframe {
 	color:
 }
 
-
+.space {	
+	margin-left: 10px;
+	margin-right: 8px;
+}
 
 
 
