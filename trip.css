@@ -1,0 +1,73 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+	/*border: 1px dotted lightgrey;*/
+}
+
+body {
+	width: 1204px;
+	margin: 0 auto;
+}
+
+h2, h3, h4, h5 {
+	line-height: 1.5em;
+	font-family: Verdana, Helvetica, Arial;
+}
+h2 { font-size: 30px; }
+h3 { font-size: 12px; color: grey; }
+h4 { font-size: 16px; font-family: Avant Garde, Century Gothic, Helvetica, Arial; margin: 15px 0 5px 0;}
+h5 { font-size: 11px; font-family: Courier New, Times New Roman, Times; font-weight: normal; color: #333; margin-top: 15px; }
+
+li {
+	color: dimgrey;
+	line-height: 1.4em;
+	font-family: Helvetica, Arial;
+	font-size: 13px;
+	margin-left: 35px;
+}
+
+a, a:hover, a:visited {
+	color: dodgerblue;
+	text-decoration: none;
+}
+
+img {
+	width: 32%;
+	border-radius: 30px;
+}
+
+section {
+	margin: 60px 0;
+	overflow: hidden;
+}
+section div {
+	float: left;
+}
+
+.col-left {
+	width: 550px;
+	padding-right: 45px;
+}
+.col-right {
+	width: 550px;
+}
+
+.title {
+	border-left: 5px solid whitesmoke;
+	padding-left: 45px;
+}
+
+.map {
+	margin-top: 35px;
+	border-radius: 10px;
+}
+#map1 { width: 90%; }
+#map2 { width: 66%; 	vertical-align: top; border-radius: 10px; }
+
+.group1 { margin-top: 180px; text-align: right; }
+.group2 { margin-top: 60px; }
+.group3 { margin-top: 35px; text-align: right; }
+.group4 { margin-top: 90px; text-align: right; }
+
+.event-flight { color: green; }
+.event-wedding {	color: crimson; }
